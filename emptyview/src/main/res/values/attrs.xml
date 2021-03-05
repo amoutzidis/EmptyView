@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="emptyShadowView" format="reference"></attr>
+
+    <declare-styleable name="EmptyView">
+        <attr name="icon" format="reference"/>
+        <attr name="iconMargin" format="dimension"/>
+        <attr name="descriptionMargin" format="dimension"/>
+        <attr name="buttonMargin" format="dimension"/>
+
+        <attr name="titleStyle" format="reference"/>
+        <attr name="title" format="string"/>
+
+        <attr name="descriptionStyle" format="reference"/>
+        <attr name="description" format="string"/>
+
+        <attr name="buttonStyle" format="reference"/>
+        <attr name="button" format="string"/>
+
+    </declare-styleable>
+</resources>

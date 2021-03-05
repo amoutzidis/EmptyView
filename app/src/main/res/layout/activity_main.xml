@@ -7,11 +7,16 @@
     tools:context=".MainActivity">
 
     <gr.amoutzidis.emptyview.EmptyView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Whoops!"
+        app:description="We're having difficulty connecting to the server. Check your connection or try again later"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:button="reflesh"
+        app:layout_constraintRight_toRightOf="parent" />
+
+<!--    app:description="This is description textview"-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
